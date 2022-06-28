@@ -28,3 +28,9 @@ nav {
   border-right: 1px solid white;
   padding: 1em 1em;
 }
+
+.test-frame {
+  width: 65vw;
+  height: 60vh;
+  margin: 0 auto;
+}
