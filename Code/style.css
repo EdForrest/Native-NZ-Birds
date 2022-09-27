@@ -119,15 +119,15 @@ nav a:hover::before {
 }
 
 .footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
+  font-size:20px;
+  width:35px;
+  height:35px;
+  line-height:35px;
   display:inline-block;
   text-align:center;
   border-radius:50%;
   border:1px solid #8E8D8A;
-  margin:0 8px;
+  margin:0 7px;
   color:inherit;
   opacity:0.75;
 }
@@ -145,4 +145,19 @@ nav a:hover::before {
   font-size:13px;
   color:#8E8D8A;
   margin-bottom:0;
+}
+
+.bird-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.bird-frame {
+	margin: 0 auto;
+	width: 95%;
+	height: 55vh;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
 }
