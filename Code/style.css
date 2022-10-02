@@ -210,3 +210,161 @@ nav a:hover::before {
 	height: 55vh;
 	padding-bottom: 5vh;
 }
+
+/* Media queries */
+
+@media (max-width: 860px) {
+	.info-container {
+		grid-template-columns: 1fr;
+	}
+
+	.image-frame img {
+		height: 41.25vh;
+		width: 50vw;
+	}
+
+	.image-frame iframe {
+		height: 41.25vh;
+		width: 50vw;
+	}
+
+	.image-frame {
+		margin: 0 auto;
+		width: 50vw;
+		height: auto;
+		padding-top: 1vh;
+		padding-bottom: 0vh;
+	}
+
+	.home-frame img {
+		height: 41.25vh;
+		width: 50vw;
+	}
+
+	.home-frame iframe {
+		height: 41.25vh;
+		width: 50vw;
+	}
+
+	.home-frame {
+		margin: 0 auto;
+		width: 50vw;
+		height: auto;
+		padding-top: 1vh;
+		padding-bottom: 0vh;
+	}
+
+	.info-container p {
+		font-size: 12px;
+		width: 85%;
+	}
+
+	.info-container .text-container {
+		font-size: 10px;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.text-wrapper h1{
+		font-size: 15px
+	}
+
+	.text-wrapper h2{
+		font-size: 13px
+	}
+
+	.text-wrapper p{
+		font-size: 11px
+	}
+
+	.logo {
+		display: none;
+	}
+
+	nav {
+	  float: none;
+	}
+
+	nav li {
+	  display: grid;
+		grid-template-columns: 1fr;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	header {
+		padding-bottom: 15px;
+	}
+
+	nav a {
+	  font-size: 15px;
+	}
+
+	header img {
+		height: 3.5vh;
+	}
+
+
+}
+
+@media (max-width: 640px) {
+	.image-frame img {
+		height: 34vh;
+		width: 44vw;
+	}
+
+	.image-frame iframe {
+		height: 34vh;
+		width: 44vw;
+	}
+
+	.image-frame {
+		margin: 0 auto;
+		width: 44vw;
+		height: auto;
+		padding-top: 1vh;
+		padding-bottom: 0vh;
+	}
+
+	.home-frame img {
+		height: 34vh;
+		width: 44vw;
+	}
+
+	.home-frame iframe {
+		height: 34vh;
+		width: 44vw;
+	}
+
+	.home-frame {
+		margin: 0 auto;
+		width: 44vw;
+		height: auto;
+		padding-top: 1vh;
+		padding-bottom: 0vh;
+	}
+
+	.info-container p {
+		font-size: 10px;
+		width: 85%;
+	}
+
+	.info-container .text-container {
+		font-size: 8px;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.text-wrapper h1{
+		font-size: 13px
+	}
+
+	.text-wrapper h2{
+		font-size: 11px
+	}
+
+	.text-wrapper p{
+		font-size: 9px
+	}
+
+}
